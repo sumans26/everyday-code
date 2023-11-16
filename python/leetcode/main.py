@@ -1,9 +1,12 @@
-from valid_parentheses import Solution
+from invert_binary_tree import *
 
 sln = Solution()
-# print (sln.twoSum([5,3,2,1,4,7,6], 10))
-# prices = [7,1,5,3,6,4]
-s = "([()])"
 
-print(sln.isValid(s))
+print (sln.invertTree([5,3,2,1,4,7,6]))
+
+
+
+
+
+
 
