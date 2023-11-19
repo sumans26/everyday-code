@@ -1,8 +1,11 @@
-from invert_binary_tree import *
+from binary_search import *
 
 sln = Solution()
 
-print (sln.invertTree([5,3,2,1,4,7,6]))
+nums = [3]
+target = -1
+
+print (sln.search(nums, target))
 
 
 
