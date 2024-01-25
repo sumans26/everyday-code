@@ -1,16 +1,12 @@
-from lowest_common_ancestor_of_a_bst import *
+from majority_element import *
 
 sln = Solution()
 
-root = [6,2,8,0,4,7,9,None,None,3,5]
-p = 2
-q = 4
-sr = 0
-sc = 0
-color = 0
+nums = [2,2,1,3,1,1,4,1,1,5,1,1,6]
 
 
-image =  (sln.floodFill(image, sr, sc, color))
+
+image =  (sln.majorityElement(nums))
 
 print(image)
 
