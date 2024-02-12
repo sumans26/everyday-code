@@ -1,12 +1,11 @@
-from majority_element import *
+from move_zeros import *
 
 sln = Solution()
 
-nums = [2,2,1,3,1,1,4,1,1,5,1,1,6]
+nums =  [1,0,1]
 
 
-
-image =  (sln.majorityElement(nums))
+image = sln.moveZeroes(nums)
 
 print(image)
 
